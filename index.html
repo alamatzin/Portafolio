@@ -4,45 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alam Atzin Hernandez Aviles</title>
+    <title>Disenador freelancer</title>
+    <link rel="preload" href="CSS/normalize.css"><!--Ayuda a cargar las paginas-->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> <!--cambia la fuente-->
+    <link rel="preload" href="CSS/" as="style">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
-        <h1>Hola! Soy Alam Hernandez, Desarrollador Java Fullstack.</h1>
-        <nav>
-            <a href="#">Acerca de mi</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Portafolio</a>
+        <h1 class="titulo">¡Hola, soy Alam Hernandez!</h1>
+    </header>
+   
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
             <a href="#">Contacto</a>
         </nav>
-    </header>
-    <section>
-        <h2>Acerca de mi</h2>
-        <p>Geocientífico de formación, encontré mi pasión en la programación y la tecnología. Me considero una persona curiosa por naturaleza, comprometido con mi aprendizaje y crecimiento. Tengo experiencia en el diseño de bases de datos, así como el desarrollo de páginas y aplicaciones web.</p>
-        <div>
-            <a href="#" download="#" title="descargar cv">Descarga mi CV</a>  <!--Aqui ira un boton para descargar mi CV-->
+    </div>
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Desarrollador Java Full-Stack</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p>Coyoacan, Ciudad de Mexico</p>
+
         </div>
     </section>
-    <section>
-        <h2>Habilidades</h2>  <!--Las imagenes estan muy grandes, se espera que en la parte de css se posicionen correctamente-->
-        <img src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="">
-        <img src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png" alt="">
-        <img src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png" alt="">
-        <img src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png" alt="">
-    </section>
-    <div> <!--aqui se espera que vaya los proyectos que estaremos desarrollando asi como -->
-        <h2>Mi portafolio</h2>
-    </div>  
-    <section>
-        <h2>Contacto</h2>  <!--Aqui vendra mis enlaces a linkedin, Github, y gmail, aun no me decido bien que otras redes deberian ir.-->
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-    </section>
+
+    <main class="contenedor sombra">
+        <h2>Sobre Mi</h2>
+
+        <div class="servicios">
+            <section class="apartados">
+                <h3>¿Quién Soy?</h3>
+                <div class="iconos"><!--Iconos sacados de tabler icons.-->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-planet" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" />
+                        <circle cx="12" cy="12" r="7" />
+                      </svg>
+                </div>
+                    <p>Geocientífico de formación, encontré mi pasión en la programación y la tecnología. Tengo experiencia en el diseño de bases de datos, así como el desarrollo de páginas y aplicaciones web.</p>
+            </section>
+            
+            <section class="apartados">
+                <h3>Mi portafolio</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 5h6v14h-6z" />
+                        <path d="M12 9h10v7h-10z" />
+                        <path d="M14 19h6" />
+                        <path d="M17 16v3" />
+                        <path d="M6 13v.01" />
+                        <path d="M6 16v.01" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="13" y="8" width="8" height="12" rx="1" />
+                        <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+                        <line x1="16" y1="9" x2="18" y2="9" />
+                      </svg>
+                </div>
+                <a class="boton portafolio" href="#">Portafolio</a>
+            </section>
+
+            <section class="apartados">
+                <h3>Mis habilidades</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                    <path d="M7.5 8h3v8l-2 -1" />
+                    <path d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+                    <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+                    <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+                    <line x1="11" y1="6" x2="11" y2="6.01" />
+                    <line x1="13" y1="18" x2="13" y2="18.01" />
+                    </svg>
+                </div>
+                    <p>Tengo conocimientos de Python para analisis de datos, asi como de PostgresSQL. Tambien cuento con experiencia utilizando HTML, CSS, JavaScript y JAVA para el desarrollo web.</p>
+            </section>  
+        </div> 
+
+        <section>
+            <h2>Contacto</h2>
+            
+            <form class="formulario" action="">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos</legend>
+                    
+                    <div class="cont-campos">
+                        <div class="campo">
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="Nombre">
+                        </div>
+
+                        <div class="campo">
+                        <label for="">Telefono</label>
+                        <input type="tel" placeholder="Tu telefono">
+                        </div>
+
+                        <div class="campo">
+                        <label for="">Correo</label>
+                        <input type="email" placeholder="Tu email">
+                        </div>
+                        
+                        <div class="campo">
+                        <label for="">Mensaje</label>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="boton-enviar">
+                        <input class="boton boton-ult" type="submit" value="enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
     <footer>
-        <p>Copyright &#169 2022. @alam-hernandez</p>
-        <p>All Rights Reserved</p> 
+        <p>Todos los derechos reservados. Alam Atzin Hernandez Aviles</p>
     </footer>
+
 </body>
 </html>
